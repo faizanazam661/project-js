@@ -1,0 +1,33 @@
+.nav-color {
+    background-color: darkslategray;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+/* Original String Area */
+.originalstring {
+    background-color: darkslategray;
+}
+
+/* Buttons Styling */
+.buttons .btn {
+    margin-bottom: 8px;
+    min-width: 45%;
+}
+
+/* Media Query For Result Div */
+@media screen and (max-width: 1024px) {
+    .buttons .btn {
+        min-width: 100%;
+    }
+
+    .out {
+        min-height: 142px;
+    }
+}
+
+footer {
+    background-color: darkslategray;
+}

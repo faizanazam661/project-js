@@ -1,0 +1,115 @@
+body {
+    background-image: linear-gradient(90deg, #3F2B96 0%, #A8C0FF 100%);
+}
+
+/* Form Section */
+.loginform {
+    width: 330px;
+    height: 330px;
+    background-color: darkslategray;
+    margin: 100px auto;
+    border-radius: 4px;
+    box-shadow: 6px 2px 17px 0px rgba(0, 0, 0, 0.86);
+    -webkit-box-shadow: 6px 2px 17px 0px rgba(0, 0, 0, 0.86);
+    -moz-box-shadow: 6px 2px 17px 0px rgba(0, 0, 0, 0.86);
+}
+
+/* Main Heading */
+#heading {
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-weight: lighter;
+}
+
+/* Input Fields */
+.fname {
+    width: 250px;
+    height: 30px;
+    margin: 10px;
+}
+
+/* Forgot Password */
+h6 {
+    color: white;
+    margin-right: 35px;
+    margin-top: 5px;
+    text-align: end;
+    cursor: pointer;
+    font-weight: lighter;
+}
+
+/* Login Button */
+#loginbtn {
+    margin-left: 30px;
+    background-color: #165a72;
+    color: white;
+    width: 90px;
+    height: 35px;
+}
+
+/* Icons */
+
+#fname {
+    background-image: url(https://cdn4.iconfinder.com/data/icons/man-user-human-person-business-profile-avatar/100/20-1User_13-256.png);
+    background-size: 23px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+#email {
+    background-image: url(https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-email-512.png);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+#password {
+    background-image: url(https://cdn4.iconfinder.com/data/icons/standard-free-icons/139/Safety01-256.png);
+    background-size: 23px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+@media screen and (max-width: 768px) {
+
+    /* Form Section */
+    .loginform {
+        width: 280px;
+        height: 280px;
+    }
+
+    /* Input Fields */
+    .fname {
+        width: 220px;
+        height: 25px;
+        margin: 8px;
+    }
+
+    /* Forgot Password */
+    h6 {
+        margin-right: 25px;
+        margin-top: 3px;
+    }
+
+    /* Login Button */
+    #loginbtn {
+        margin-left: 25px;
+        width: 80px;
+        height: 35px;
+    }
+
+    /* Icons */
+
+    #fname {
+        background-size: 18px;
+    }
+
+    #email {
+        background-size: 18px;
+    }
+
+    #password {
+        background-size: 18px;
+    }
+}
